@@ -8,17 +8,16 @@ enable                         = 1
 
 
 [beep]
-enable                         = 1
+enable                         = 0
 
 
 [target]
 extruder                       = 220
 heaterbed                      = 60
-hot                            = 55
 
 
 [babystep]
-value                          = 0
+value                          = 0.000
 
 
 [total]
@@ -33,3 +32,17 @@ enable                         = 0
 enable                         = 0
 
 
+[app_connection]
+method                         = true
+
+
+[app_server]
+name                           = aws
+
+
+[app]
+device_code                    = 
+subdomain                      = 
+token                          = 
+username                       = 
+avatar                         = 
